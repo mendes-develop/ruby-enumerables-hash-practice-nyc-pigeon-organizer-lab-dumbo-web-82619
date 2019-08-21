@@ -10,26 +10,20 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         
         if new_list[name] == nil 
-          
           new_list[name] = {}
         end
       
         if new_list[name][key] == nil
-          
           new_list[name][key] = []
         end
         
         new_list[name][key] << new_key.to_s
         #binding.pry
       end
-      
     end
-     
-    
   end
-new_list
-
-
+  new_list
+end
 
 
 
@@ -59,4 +53,4 @@ new_list
   # end
   
   # new_list
-end
+#end
