@@ -4,9 +4,7 @@ def nyc_pigeon_organizer(data)
   new_list = {}
   
   data.each do |key, value| 
-    
     value.each do |new_key, names|
-      
       names.each do |name|
         
         if new_list[name] == nil 
